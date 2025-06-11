@@ -1,9 +1,10 @@
 # Symbolic-Code-Automation
-## ⚙️ Automating the Math: Solving Navier-Stokes by Symbolic Computation
+## Since the entire work isn't published now so I am unable to provide the main code and the approach due to threat of Piracy.
+##  Automating the Math: Solving Navier-Stokes by Symbolic Computation
 
 One of the coolest parts of this project? We didn’t just crunch equations manually — we **automated** a big chunk of the heavy lifting using **Mathematica** and symbolic algebra.
 
-### 🧠 The Problem
+###  The Problem
 
 When working with microhydrodynamics (especially in viscoelastic fluids), you're often dealing with:
 - Complex versions of the **Navier–Stokes equations**
@@ -15,7 +16,7 @@ Manually solving these — especially for higher-order approximations — is pai
 
 ---
 
-### 🤖 The Solution: Symbolic Automation with Mathematica
+###  The Solution: Symbolic Automation with Mathematica
 
 To make life easier (and more accurate), we used **Mathematica notebooks** to automate a lot of this math. Here's what went down:
 
@@ -30,22 +31,22 @@ This was inspired by the work of Jonas Einarsson in *Computer Algebra for Microh
 
 ---
 
-### 🌀 What We Automated
+###  What We Automated
 
 Instead of manually working through pages of algebra, we wrote code that could:
 
-✅ Break down and simplify tensor expressions (e.g., ∇²u - ∇p = f)  
-✅ Apply the **Lorentz Reciprocal Theorem** to find migration forces  
-✅ Construct the full expressions for disturbance velocities \( v^{(0)}, v^{(1)} \)  
-✅ Solve for all unknown coefficients in the solution ansatz  
-✅ Automatically apply boundary conditions (force-free, torque-free, etc.)  
-✅ Generate lift force integrals in spherical coordinates (for both Newtonian and non-Newtonian cases)
+ Break down and simplify tensor expressions (e.g., ∇²u - ∇p = f)  
+ Apply the **Lorentz Reciprocal Theorem** to find migration forces  
+ Construct the full expressions for disturbance velocities \( v^{(0)}, v^{(1)} \)  
+ Solve for all unknown coefficients in the solution ansatz  
+ Automatically apply boundary conditions (force-free, torque-free, etc.)  
+ Generate lift force integrals in spherical coordinates (for both Newtonian and non-Newtonian cases)
 
 We even implemented a **Fourier Transform-based solution** for particular velocity fields to avoid solving Poisson equations directly — saving loads of time.
 
 ---
 
-### 📚 Tools and Notebooks Used
+###  Tools and Notebooks Used
 
 - `peery's approach.nb`: Symbolic expansion of velocity and stress fields
 - `Strain.nb`: Automation of strain-rate tensors, Rivlin-Ericksen terms
@@ -53,7 +54,7 @@ We even implemented a **Fourier Transform-based solution** for particular veloci
 
 ---
 
-### 🔍 Why This Matters
+###  Why This Matters
 
 Let’s be real — solving full Navier–Stokes equations with complex boundary conditions is *hard*. But with automation:
 - You reduce human error in derivations
@@ -64,7 +65,7 @@ This symbolic framework opens up a path to **analyze advanced fluid mechanics pr
 
 ---
 
-### 📖 Inspired By:
+###  Inspired By:
 
 - [Jonas Einarsson – Computer Algebra for Microhydrodynamics]
 - J. Peery’s classical work on particles in low Reynolds number shear flow
