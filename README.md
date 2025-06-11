@@ -1,5 +1,5 @@
 # Symbolic-Code-Automation
-##Since the complete work has not yet been published, I am unable to share the main code and detailed approach at this stage due to concerns regarding intellectual property protection.
+## Since the complete work has not yet been published, I am unable to share the main code and detailed approach at this stage due to concerns regarding intellectual property protection.
 ##  Automating the Math: Solving Navier-Stokes by Symbolic Computation
 
 One of the coolest parts of this project? We didn’t just crunch equations manually — we **automated** a big chunk of the heavy lifting using **Mathematica** and symbolic algebra.
